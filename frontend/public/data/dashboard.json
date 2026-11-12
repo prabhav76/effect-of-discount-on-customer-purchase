@@ -1,0 +1,360 @@
+{
+  "available": true,
+  "generated_at": "2026-11-12T09:47:09.959162+00:00",
+  "overview": {
+    "households": 2500,
+    "discounted_multi_unit_rate": 0.24278246554660446,
+    "non_discounted_multi_unit_rate": 0.16451246179508455,
+    "difference_pp": 7.82700037515199,
+    "bootstrap_ci_lower": 7.48477342905007,
+    "bootstrap_ci_upper": 8.204406193830504,
+    "cmh_odds_ratio": 1.6108230143755466,
+    "cmh_ci_lower": 1.6006407800761155,
+    "cmh_ci_upper": 1.621070021418881,
+    "cmh_p_value": 0.0
+  },
+  "discount": {
+    "bands": [
+      {
+        "name": "No Discount",
+        "rate": 16.58183070348429,
+        "multi_unit_records": 209954,
+        "records": 1266169
+      },
+      {
+        "name": "Low",
+        "rate": 29.801422119500486,
+        "multi_unit_records": 50545,
+        "records": 169606
+      },
+      {
+        "name": "Moderate",
+        "rate": 19.456094457156613,
+        "multi_unit_records": 96167,
+        "records": 494277
+      },
+      {
+        "name": "High",
+        "rate": 26.327733169052564,
+        "multi_unit_records": 151286,
+        "records": 574626
+      },
+      {
+        "name": "Very High",
+        "rate": 27.604411364704134,
+        "multi_unit_records": 22327,
+        "records": 80882
+      }
+    ],
+    "low_vs_no_discount_or": 2.135683305122088,
+    "very_high_vs_no_discount_or": 1.9182029953372315,
+    "national_or": 1.4793074564164244,
+    "private_or": 1.5480886859818115,
+    "brand_interaction_p_value": 0.03164349222856871,
+    "overall_band_p_value": 0.0,
+    "category_count": 258,
+    "significant_category_count": 124,
+    "positive_category_count": 110,
+    "negative_category_count": 14,
+    "category_median_or": 1.5692775112804784
+  },
+  "promotion": {
+    "metadata_share_pct": 21.7192683990489,
+    "significant_test_count": 3,
+    "test_count": 6,
+    "mean_sales_with_metadata": 40.5333388993853,
+    "median_sales_with_metadata": 26.11,
+    "mean_sales_without_metadata": 15.571727458626594,
+    "median_sales_without_metadata": 10.0,
+    "mean_discount_with_metadata": 16.03880838229005,
+    "mean_discount_without_metadata": 7.788833301320662,
+    "coupon_sales_significant": false,
+    "coupon_discount_significant": true,
+    "coupon_mean_discount_with_coupon": 47.275237024902516,
+    "coupon_mean_discount_without_coupon": 13.379663233230893,
+    "coupon_mean_sales_with_coupon": 3.498014661468343,
+    "coupon_mean_sales_without_coupon": 3.0985142050005665,
+    "basket_sales_significant": true,
+    "basket_discount_significant": true,
+    "promotion_household_significant": false,
+    "findings": [
+      {
+        "Area": "Promotion exposure",
+        "Finding": "21.72% of transaction records have recorded promotion metadata.",
+        "Statistical_Result": "Descriptive"
+      },
+      {
+        "Area": "Basket sales",
+        "Finding": "Promotion-recorded baskets have higher mean and median sales.",
+        "Statistical_Result": "Significant after Holm correction"
+      },
+      {
+        "Area": "Basket discount percentage",
+        "Finding": "Promotion-recorded baskets have higher mean discount percentage.",
+        "Statistical_Result": "Significant after Holm correction"
+      },
+      {
+        "Area": "Coupon usage",
+        "Finding": "Coupon users have higher household-level discount percentages.",
+        "Statistical_Result": "Significant after Holm correction"
+      },
+      {
+        "Area": "Coupon usage and sales",
+        "Finding": "No significant household-level sales difference was found.",
+        "Statistical_Result": "Not significant"
+      },
+      {
+        "Area": "Household promotion comparison",
+        "Finding": "No significant difference remained after correction.",
+        "Statistical_Result": "Not significant"
+      }
+    ],
+    "coupon_groups": [
+      {
+        "Coupon_Group": "Coupon discount recorded",
+        "Records": "36422",
+        "Record_Share_Percent": "1.403149477681055",
+        "Mean_Sales_Per_Record": "3.498014661468343",
+        "Mean_Total_Discount_Per_Record": "2.2523595629015425",
+        "Mean_Coupon_Discount_Per_Record": "-1.1699395969469002",
+        "Mean_Discount_Percentage": "47.275237024902516"
+      },
+      {
+        "Coupon_Group": "No coupon discount recorded",
+        "Records": "2559310",
+        "Record_Share_Percent": "98.59685052231895",
+        "Mean_Sales_Per_Record": "3.0985142050005665",
+        "Mean_Total_Discount_Per_Record": "0.5339311298748491",
+        "Mean_Coupon_Discount_Per_Record": "0.0",
+        "Mean_Discount_Percentage": "13.379663233230893"
+      }
+    ],
+    "promotion_groups": [
+      {
+        "Promotion_Type": "Display and mailer recorded",
+        "Records": "563774",
+        "Record_Share_Percent": "21.7192683990489",
+        "Mean_Sales_Per_Record": "2.763076747065313",
+        "Mean_Total_Discount_Per_Record": "1.2584915586742205",
+        "Mean_Discount_Percentage": "28.520209630647106"
+      },
+      {
+        "Promotion_Type": "Display only",
+        "Records": "0",
+        "Record_Share_Percent": "0.0",
+        "Mean_Sales_Per_Record": "",
+        "Mean_Total_Discount_Per_Record": "",
+        "Mean_Discount_Percentage": ""
+      },
+      {
+        "Promotion_Type": "Mailer only",
+        "Records": "0",
+        "Record_Share_Percent": "0.0",
+        "Mean_Sales_Per_Record": "",
+        "Mean_Total_Discount_Per_Record": "",
+        "Mean_Discount_Percentage": ""
+      },
+      {
+        "Promotion_Type": "Neither recorded",
+        "Records": "2031958",
+        "Record_Share_Percent": "78.2807316009511",
+        "Mean_Sales_Per_Record": "3.1987434041451643",
+        "Mean_Total_Discount_Per_Record": "0.3637013658746884",
+        "Mean_Discount_Percentage": "9.776490182106375"
+      }
+    ]
+  },
+  "clusters": {
+    "households": 2500,
+    "model": "GMM \u00b7 PCA \u00b7 K=2, spherical",
+    "profiles": [
+      {
+        "id": "0",
+        "households": 1408,
+        "median_baskets": 43.0,
+        "median_basket_value": 22.830723905723907,
+        "median_discount_percentage": 15.230231183719123,
+        "median_multi_unit_share": 0.19371296905859117,
+        "activity": "Lower shopping activity",
+        "share": 56.32
+      },
+      {
+        "id": "1",
+        "households": 1092,
+        "median_baskets": 147.0,
+        "median_basket_value": 33.27108015878543,
+        "median_discount_percentage": 14.856397822015834,
+        "median_multi_unit_share": 0.19473398242579049,
+        "activity": "Higher shopping activity",
+        "share": 43.68
+      }
+    ]
+  },
+  "basket": {
+    "rule_count": 31,
+    "fpgrowth_rule_count": 31,
+    "matched_rule_count": 31,
+    "itemset_count": 164,
+    "fpgrowth_itemset_count": 164,
+    "matched_itemset_count": 164,
+    "algorithms_agree": true,
+    "high_lift_count": 31,
+    "max_lift": 14.152721407666911,
+    "rules": [
+      {
+        "antecedent": "HOT DOG BUNS (BAKED BREAD/BUNS/ROLLS)",
+        "consequent": "HAMBURGER BUNS (BAKED BREAD/BUNS/ROLLS)",
+        "support": 0.006086829848301711,
+        "confidence": 0.3067460317460317,
+        "lift": 14.152721407666911
+      },
+      {
+        "antecedent": "CHOCOLATE MILK (FLUID MILK PRODUCTS)",
+        "consequent": "FLUID MILK WHITE ONLY (FLUID MILK PRODUCTS)",
+        "support": 0.006141949911611042,
+        "confidence": 0.3102625298329356,
+        "lift": 6.283199666304987
+      },
+      {
+        "antecedent": "GRAPES WHITE (GRAPES)",
+        "consequent": "BANANAS (TROPICAL FRUIT)",
+        "support": 0.006535664649534826,
+        "confidence": 0.4526861194436869,
+        "lift": 3.861179399678336
+      },
+      {
+        "antecedent": "STRAWBERRIES (BERRIES)",
+        "consequent": "BANANAS (TROPICAL FRUIT)",
+        "support": 0.00925229634120894,
+        "confidence": 0.4458357047998482,
+        "lift": 3.8027488917260475
+      }
+    ]
+  },
+  "findings": [
+    {
+      "area": "Discount status",
+      "finding": "24.28% of discounted records were multi-unit purchases vs 16.45% without a discount",
+      "method": "Household bootstrap 95% CI: 7.48\u20138.20 percentage points"
+    },
+    {
+      "area": "Discount bands",
+      "finding": "Multi-unit purchase rates and odds vary across discount bands",
+      "method": "Household-clustered binomial GEE; pairwise Holm correction"
+    },
+    {
+      "area": "Promotion effectiveness",
+      "finding": "21.72% of records had recorded promotion metadata",
+      "method": "Household- and basket-level comparisons with Holm correction"
+    },
+    {
+      "area": "Basket associations",
+      "finding": "Apriori produced 31 association rules",
+      "method": "Cross-checked with FP-Growth"
+    }
+  ],
+  "sources": {
+    "transactions": "data/processed/transactions_enriched.csv",
+    "rq1": "data/processed/statistical_analysis/rq1_overall_discount_analysis.csv",
+    "rq2": "data/processed/statistical_analysis/rq2_discount_band_analysis.csv",
+    "rq3": "data/processed/statistical_analysis/rq3_brand_comparison.csv",
+    "rq4": "data/processed/statistical_analysis/rq4_category_primary_results.csv",
+    "statistical_summary": "data/processed/statistical_analysis/statistical_analysis_summary.csv",
+    "promotion_findings": "data/processed/discount_effectiveness/discount_effectiveness_findings.csv",
+    "promotion_tests": "data/processed/discount_effectiveness/statistical_test_results.csv",
+    "promotion_summary": "data/processed/discount_effectiveness/promotion_analysis.csv",
+    "coupon_summary": "data/processed/discount_effectiveness/coupon_analysis.csv",
+    "basket_summary": "data/processed/discount_effectiveness/basket_discount_analysis.csv",
+    "cluster_profiles": "data/processed/customer_clustering/cluster_profiles.csv",
+    "cluster_assignments": "data/processed/customer_clustering/household_cluster_assignments.csv",
+    "cluster_comparison": "data/processed/customer_clustering/clustering_comparison.csv",
+    "rules": "data/processed/association_rule_mining/association_rules_apriori.csv",
+    "fpgrowth_rules": "data/processed/association_rule_mining/association_rules_fpgrowth.csv",
+    "interpreted_rules": "data/processed/association_rule_mining/high_confidence_interpretable_rules.csv",
+    "itemset_comparison": "data/processed/association_rule_mining/itemset_comparison.csv",
+    "rule_comparison": "data/processed/association_rule_mining/rule_comparison.csv",
+    "itemset_findings": "data/processed/association_rule_mining/key_findings.csv"
+  },
+  "_input_signature": {
+    "transactions": {
+      "size": 371688977,
+      "mtime_ns": 1794474089576312923
+    },
+    "rq1": {
+      "size": 393,
+      "mtime_ns": 1794474229959087977
+    },
+    "rq2": {
+      "size": 542,
+      "mtime_ns": 1794474229959591338
+    },
+    "rq3": {
+      "size": 477,
+      "mtime_ns": 1794474229959934732
+    },
+    "rq4": {
+      "size": 42760,
+      "mtime_ns": 1794474229960759707
+    },
+    "statistical_summary": {
+      "size": 412,
+      "mtime_ns": 1794474229964737341
+    },
+    "promotion_findings": {
+      "size": 670,
+      "mtime_ns": 1794475788854362822
+    },
+    "promotion_tests": {
+      "size": 1184,
+      "mtime_ns": 1794475788802408611
+    },
+    "promotion_summary": {
+      "size": 371,
+      "mtime_ns": 1794475788813361461
+    },
+    "coupon_summary": {
+      "size": 392,
+      "mtime_ns": 1794475788814002649
+    },
+    "basket_summary": {
+      "size": 243,
+      "mtime_ns": 1794475788836706743
+    },
+    "cluster_profiles": {
+      "size": 1574,
+      "mtime_ns": 1794475662081550596
+    },
+    "cluster_assignments": {
+      "size": 16415,
+      "mtime_ns": 1794475662063101950
+    },
+    "cluster_comparison": {
+      "size": 717,
+      "mtime_ns": 1794475662712013689
+    },
+    "rules": {
+      "size": 8414,
+      "mtime_ns": 1794474307655982774
+    },
+    "fpgrowth_rules": {
+      "size": 8414,
+      "mtime_ns": 1794474307656780402
+    },
+    "interpreted_rules": {
+      "size": 4481,
+      "mtime_ns": 1794474307657279034
+    },
+    "itemset_comparison": {
+      "size": 11737,
+      "mtime_ns": 1794474307657542636
+    },
+    "rule_comparison": {
+      "size": 15768,
+      "mtime_ns": 1794474307658542702
+    },
+    "itemset_findings": {
+      "size": 457,
+      "mtime_ns": 1794474308083213456
+    }
+  }
+}

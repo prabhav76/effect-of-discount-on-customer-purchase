@@ -189,3 +189,7 @@ def build_processed_datasets():
     )
 
     return transactions_promo, transactions_enriched
+
+
+if __name__ == "__main__":
+    build_processed_datasets()
